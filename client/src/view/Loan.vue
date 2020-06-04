@@ -4,9 +4,9 @@
       <mu-appbar>
         <mu-button icon slot="left" >
         </mu-button>
-        <div class="title">webchat</div>
+        <div class="title">唠会儿</div>
         <mu-button icon slot="right">
-          <mu-icon value="expand_more"></mu-icon>
+          <mu-icon value="expand_more" color="#03a9f4"></mu-icon>
         </mu-button>
       </mu-appbar>
     </div>
@@ -54,7 +54,7 @@
                 <img :src="robot">
               </mu-avatar>
             </mu-list-item-action>
-            <mu-list-item-title>客服大白(微信群，作者联系方式，找我)</mu-list-item-title>
+<!--            <mu-list-item-title>客服大白(微信群，作者联系方式，找我)</mu-list-item-title>-->
             <mu-list-item-action>
               <mu-icon value="chat_bubble"></mu-icon>
             </mu-list-item-action>
@@ -80,7 +80,7 @@
       </mu-paper>
     </div>
     <Bottom></Bottom>
-     <p style="text-align: center;position: absolute; bottom:0;width: 100%;">©2020 蓝色的秋风&nbsp&nbsp&nbsp<a href="http://beian.miit.gov.cn" target="_blank">浙ICP备16040413号-1</a></p>
+<!--     <p style="text-align: center;position: absolute; bottom:0;width: 100%;">©2020 蓝色的秋风&nbsp&nbsp&nbsp<a href="http://beian.miit.gov.cn" target="_blank">浙ICP备16040413号-1</a></p>-->
   </div>
 </template>
 
@@ -177,8 +177,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" rel="stylesheet/stylus">
+
 .title {
   text-align: center;
+  color: #03a9f4;
 }
 .chat-list {
   overflow-y: scroll;

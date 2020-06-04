@@ -174,7 +174,13 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
 
+.content {
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  padding-top: 10px;
+}
+
 .logout {
-  margin: 0 20px;
+  margin: 10px 20px;
 }
 </style>
